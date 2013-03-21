@@ -42,7 +42,7 @@ for plugin in ${PLUGINS[@]} ; do
   else
     cd $RBENV_PLUGIN_ROOT
     echo "Pulling $VALUE updates."
-    git pull
+    git pull origin master
   fi
 
 done
